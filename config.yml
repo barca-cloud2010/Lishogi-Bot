@@ -1,4 +1,4 @@
-token: "EoV8uifKdnTY3TOm"    # lishogi OAuth2 Token with 'play as bot' enabled
+token: "IM8danvcQaqksCUA"    # lishogi OAuth2 Token with 'play as bot' enabled
 url: "https://lishogi.org/"  # lishogi base URL
 
 engine:                      # engine settings
@@ -10,8 +10,8 @@ engine:                      # engine settings
 # engine_options:           # any custom command line params to pass to the engine
 #   cpuct: 3.1
   uci_options:               # arbitrary USI options passed to the engine
-    Move Overhead: 100       # increase if your bot flags games too often
-    Threads: 5               # max CPU threads the engine can use
+    Move Overhead: 700       # increase if your bot flags games too often
+    Threads: 10               # max CPU threads the engine can use
     Hash: 256                # max memory (in megabytes) the engine can allocate
 #   go_commands:             # additional options to pass to the USI go command
 #     nodes: 1               # Search so many nodes only.
